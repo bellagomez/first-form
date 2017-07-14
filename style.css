@@ -1,0 +1,59 @@
+ /*
+ purple: #292942;
+ pink: #A472BA;
+ */
+   
+
+body {
+    padding: 0;
+    background: #A472BA;
+    background:-webkit-linear-gradient(pink,purple);
+    color:white;
+    font-family:sans-serif;
+    height:100vh;
+
+}
+
+#outer-form {
+    background: #292942;
+    width: 500px;
+    margin: 0 auto;
+}
+ol {
+    margin-top:10vh;
+
+}
+
+div {
+    border-radius:40px;
+
+}
+p {
+    border:6px solid rgb(30,0,30);
+    display:inline-block;
+    border-radius:10px;
+    
+    
+}
+p#ffffff {
+    color:magenta;
+}
+div#outer-form {
+    box-shadow: 0 0 50px magenta;
+}
+
+p.div{
+    border: 2px magenta solid;}
+button {
+    display:block;
+    margin:30px auto;
+    border-radius:100px;
+}
+
+.spot{
+    background:rgba(215, 0, 44, 0.2);
+    width:300px;
+    height:35px;
+    margin:10px;
+    border-radius:4px;
+}
